@@ -4,11 +4,36 @@ RVersion: 3.4.1
 Repos: CRAN=https://cran.rstudio.com/,
     CRANextra=http://www.stats.ox.ac.uk/pub/RWin
 
+Package: Rcpp
+Source: CRAN
+Version: 0.12.12
+Hash: 8b3d5ebb9a9a4ab5c86b3a81b0cfb774
+
+Package: magrittr
+Source: CRAN
+Version: 1.5
+Hash: bdc4d48c3135e8f3b399536ddf160df4
+
 Package: packrat
 Source: github
 Version: 0.4.8-21
+Hash: cc7987675188c1a74c027d75247cccc6
 GithubRepo: packrat
 GithubUsername: rstudio
 GithubRef: master
 GithubSha1: ff5a9523d749ad0e936f828197f09979904251b3
-Hash: cc7987675188c1a74c027d75247cccc6
+
+Package: pryr
+Source: CRAN
+Version: 0.1.2
+Hash: acf91611cd58b374cc98f0075491fbd1
+
+Package: stringi
+Source: CRAN
+Version: 1.1.5
+Hash: b6308e49357a0b475f433599e0d8b5eb
+
+Package: stringr
+Source: CRAN
+Version: 1.2.0
+Hash: 25a86d7f410513ebb7c0bc6a5e16bdc3
