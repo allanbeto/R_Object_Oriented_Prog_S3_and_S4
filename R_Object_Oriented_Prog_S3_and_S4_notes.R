@@ -12,12 +12,13 @@
 #Packages
 
 install.packages("pryr")
+install.packages("R6")
 
 
 #Library
 
-library(pryr)
-
+library("pryr")
+library("R6")
 #-------------------------------------------------------------> Introduction to Object-Oriented Programming
 
 # Learn what object-oriented programming (OOP) consists of, when to use it, and
@@ -246,8 +247,24 @@ what_am_i(kitty)
 # interface from the implementation details. 
 
 
-#-------------------------------------->
-#-------------------------------------->
+#--------------------------------------> Specifying the Microwave Oven Class
+
+# Define microwave_oven_factory
+microwave_oven_factory <- R6Class(
+  "MicrowaveOven", private = list(
+    power_ratings_watts = 800))
+
+#--------------------------------------> Making Microwave Ovens
+
+# View the microwave_oven_factory
+microwave_oven_factory
+
+# Make a new microwave oven
+microwave_oven <- microwave_oven_factory$new() 
+
+
+
+
 #-------------------------------------->
 #-------------------------------------->
 #-------------------------------------->
