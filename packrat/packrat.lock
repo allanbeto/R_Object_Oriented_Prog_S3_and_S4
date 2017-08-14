@@ -14,6 +14,26 @@ Source: CRAN
 Version: 0.12.12
 Hash: 8b3d5ebb9a9a4ab5c86b3a81b0cfb774
 
+Package: assertive.base
+Source: CRAN
+Version: 0.0-7
+Hash: 8f03c41e14a81aa5ca9a8f94f2c91692
+
+Package: assertive.numbers
+Source: CRAN
+Version: 0.0-2
+Hash: 64fe6f9b796ea47a1387ff9dffb41635
+
+Package: assertive.properties
+Source: CRAN
+Version: 0.0-4
+Hash: f28345140a6af574c71eb19d9efaa62e
+
+Package: assertive.types
+Source: CRAN
+Version: 0.0-3
+Hash: 8c7fdb41ce909452f6c2ac87fc700ffc
+
 Package: magrittr
 Source: CRAN
 Version: 1.5
